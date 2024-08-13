@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a90981c20e.js" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Portfolio</title>
+</head>
+
+<body class="uniquifier">
+
+    <header id="home">
+        <nav>
+            <div class="navbar-logo">
+                <p aria-label="Logo">
+                    <span data-text="M">M</span>
+                </p>
+            </div>
+            
+            <ul class="navbar-list">
+                <li><a href="#home">
+                        <p>Home</p>
+                        <i class="fa-solid fa-house-user"></i>
+                    </a></li>
+                <li><a href="#about">
+                        <p>About</p>
+                        <i class="fa-solid fa-user "></i>
+                    </a></li>
+                <li><a href="#projects">
+                        <p>Projects</p>
+                        <i class="fa-solid fa-eye "></i>
+                    </a></li>
+                <li><a href="#resume">
+                        <p>Resume</p>
+                        <i class="fa-solid fa-file-lines"></i>
+                    </a></li>
+                <li><a href="#contacts">
+                        <p>Contact</p>
+                        <i class="fa-solid fa-address-book "></i>
+                    </a></li>
+            </ul>
+        </nav>
+        <section class="hero">
+            <div class="hero-logo">
+                <p aria-label="Logo">
+                    <span data-text="M">M</span>
+                </p>
+            </div>
+           
+            <div class="text-box">
+                <h1>Hi,<br>
+                    I'm <div class="capital-logo">
+                        <p aria-label="Logo">
+                            <span data-text="M">M</span>
+                        
+                        </p>
+                    </div> Prakash Raj,<br>
+                    Front-End Developer</h1>
+                <input type="checkbox" id="welcome">
+                <label for="welcome" class="welcome-button">Welcome!
+                </label>
+            </div>
+        </section>
+    </header>
+    <section class="about" id="about">
+        <div class="grid">
+            <div class="content title">
+                <h2>I'm Prakash Raj M<br>Passionate Front-End Developer</h2>
+            </div>
+            <div class="content area-1">
+                <p class="primary">
+                    I'm passionate about building digital experiences with HTML, CSS, and JavaScript. Where structure meets style and functionality, magic happens. I'm excited to bring my skills to the table and create innovative solutions.
+                </p>
+            </div>
+            <div class="interest">
+                <div class="main">Interest Detected:</div>
+                <div class="quiz">
+                    <ul>
+                        <li><input type="radio" id="incorrect1" name="answer">
+                            <label for="incorrect1">HTML</label>
+                        </li>
+                        <li><input type="radio" id="correct1" name="answer">
+                            <label for="correct1">CSS</label>
+                        </li>
+                        <li><input type="radio" id="incorrect2" name="answer">
+                            <label for="incorrect2">JavaScript</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content area-2">
+                <p class="primary">
+                    With a keen sense of time-management, I stay focused and productive, meeting deadlines with ease. I'm a strong communicator, fostering open collaboration and driving results. Together, we can achieve amazing things!
+                </p>
+            </div>
+            <div class="interest ord">
+                <div class="main">Interest Detected:</div>
+                <div class="quiz">
+                    <ul>
+                        <li><input type="radio" id="correct2" name="answer">
+                            <label for="correct2">Organizational</label>
+                        </li>
+                        <li><input type="radio" id="incorrect3" name="answer">
+                            <label for="incorrect3">Communication</label>
+                        </li>
+                        <li><input type="radio" id="incorrect4" name="answer">
+                            <label for="incorrect4">Collaboration</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          
+
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <div class="title">
+            <h2>Projects</h2>
+        </div>
+        <div class="wrap-gallery">
+            <div class="slider-images">
+                <div class="img">
+                    <a href="./img/text-voice.png" target="_blank"><img
+                            src="./img/text-voice.png" alt="project" /></a>
+                </div>
+                <div class="img">
+                    <a href="./img/registration.png" target="_blank"><img
+                            src="./img/registration.png" alt="project" /></a>
+                </div>
+                <div class="img">
+                    <a href="./img/slider.png" target="_blank"><img
+                            src="./img/slider.png" alt="project" /></a>
+                </div>
+                <div class="img">
+                    <a href="./img/toggle.png" target="_blank"><img
+                            src="./img/toggle.png" alt="project" /></a>
+                </div>
+                <div class="img">
+                    <a href="./img/portfolio.png" target="_blank"><img
+                            src="./img/portfolio.png" alt="project" /></a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="resume" id="resume">
+        <div class="container">
+            <input type="radio" name="slide" id="c1" checked>
+            <label for="c1" class="card">
+                <ul class="content">
+                    <li>St. Thomas Matriculation Higher Secondary School <br>
+                        SSC (10th) <br>
+                        Marks - 84%</li>
+                    <li> St. Thomas Matriculation Higher Secondary School <br>
+                        Bio-Maths , HSC (12th) <br>
+                        Marks - 84%
+                 </li>
+                    <li>Jeppiaar institute of technology <br>
+                        BTech.Information Technology <br>
+                        CGPA : 7.52 <br>
+                        Oct 2021 - Nov 2025
+                    </li>
+                </ul>
+                <div class="row">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h4 class="title">Education</h4>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c2">
+            <label for="c2" class="card">
+                <ul class="content">
+                    <li>Passion with web developement.
+                      </li>
+                    <li>  I am eager to bring my fresh perspective, enthusiasm, and technical acumen to a dynamic development team where I can grow and make meaningful contributions..
+                    </li>
+                </ul>
+                <div class="row">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <h4 class="title">Work Experience</h4>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c3">
+            <label for="c3" class="card">
+                <ul class="content">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>PYTHON</li>
+                </ul>
+                <div class="row">
+                    <i class="fa-solid fa-code"></i>
+                    <h4 class="title">Skills</h4>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c4">
+            <label for="c4" class="card">
+                <ul class="content">
+                    <li>Strong organizational and time-management skills</li>
+                    <li>Exceptional communication and interpersonal skills</li>
+                    <li>Ability to work independently and as part of a team</li>
+                </ul>
+                <div class="row">
+                    <i class="fa-regular fa-lightbulb"></i>
+                    <h4 class="title">Soft Skills</h4>
+                </div>
+            </label>
+        </div>
+        <input type="checkbox" id="switch">
+        <label for="switch" class="switch-button">CHANGE THEME</label>
+    </section>
+    <section class="contacts" id="contacts">
+        <div class="contact-container">
+            <div class="contact">
+                <h5 class="first-text">Let's get in touch</h5>
+                <img src="img/undraw_programming_re_kg9v.svg" alt="programmer" class="image">
+                <div class="social-links">
+                    <span class="second-text">Connect with us: </span>
+                    <ul class="social-media">
+                        <li><a href="https://www.linkedin.com/in/prakashraj2003/" target="_blank"><i
+                            class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href="https://github.com/m-prakash-raj"
+                                target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://www.instagram.com/prakash_.19._" target="_blank"><i class="fa-brands fa-instagram"
+                            target="_blank"></i></a></li>
+                
+                    </ul>
+                </div>
+            </div>
+            <div class="submit-form">
+                <h3 class="third-text stuff">Contact Me</h3>
+                <form action="#" method="post">
+                    <div class="input-box">
+                        <input type="text" class="input" required>
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" class="input" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input-box">
+                        <textarea name="" class="input" required id="message" cols="30" rows="10"></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                </form>
+                <input type="submit" value="Submit" class="btn" Submit>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+</html>
